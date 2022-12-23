@@ -1,14 +1,19 @@
-import car.Car;
-import employee.Employee;
+import homework3.animals.Cat;
+import homework3.animals.Dog;
 
 public class Main {
     public static void main(String[] args) {
-        Employee employee = new Employee("Some Name", "top", "somename@gmail.com", 2343636, 43);
-        employee.getInfoEmployee();
-        Employee employee2 = new Employee("Some Name", "no top", "somename2@gmail.com", 36363, 36);
-        employee2.getInfoEmployee();
-
-        Car car = new Car();
-        System.out.println("name class: " + car.getClass().getSimpleName());
+        Cat catMur = new Cat("Mur");
+        catMur.run(300);
+        catMur.swim(10);
+        Cat catNuri = new Cat("Nuri");
+        catNuri.run(140);
+        Dog dogJonny = new Dog("Jonny");
+        dogJonny.run(300);
+        dogJonny.swim(1);
+        Dog dogTusik = new Dog("Tusik");
+        dogTusik.run(-333);
+        dogTusik.swim(133);
+        catMur.getGeneralNumberAnimals();
     }
 }
