@@ -73,3 +73,5 @@ DS_Store
 
 # test gitignore
 *.png
+production/
+*.iml
