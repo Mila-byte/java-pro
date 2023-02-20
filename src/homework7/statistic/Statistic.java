@@ -1,13 +1,13 @@
 package homework7.statistic;
 
-import java.util.List;
+import java.util.Map;
 
 public class Statistic {
-    private final List<String> topWords;
+    private final Map<String, Integer> topWords;
     private final int amountWords;
     private final int uniqWords;
 
-    public Statistic(List<String> topWords, int amount, int uniqWords) {
+    public Statistic(Map<String, Integer> topWords, int amount, int uniqWords) {
         this.topWords = topWords;
         this.amountWords = amount;
         this.uniqWords = uniqWords;
